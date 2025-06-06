@@ -8,7 +8,7 @@ import * as THREE from 'three';
 
 function CoffeeBean({ position, rotation }) {
   const mesh = useRef();
-  const fbx = useLoader(FBXLoader, '/src/assets/models/coffee-bean/source/Coffee Bean.fbx');
+  const fbx = useLoader(FBXLoader, '/CoffeeFarmer/asset/models/coffee-bean/source/Coffee Bean.fbx');
   
   useEffect(() => {
     if (fbx) {
